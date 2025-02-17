@@ -7,7 +7,7 @@ import google.generativeai as genai
 
 def analyse():
     # Initialize the Gemini API
-    genai.configure(api_key="AIzaSyDoO3STDZb5ehCVaoJtYjdy4uo8Pww4cTw")  # Replace with your Gemini API key
+    genai.configure(api_key="API_KEY")  # Replace with your Gemini API key
 
     # Initialize the Gemini model
     gemini_model = genai.GenerativeModel('gemini-pro')
