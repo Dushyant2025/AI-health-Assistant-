@@ -13,7 +13,7 @@ import os
 
 def newfea():
     # 🔹 Load environment variables
-    GEMINI_API_KEY = "AIzaSyAfXomua6OD94ntm9K-bHv5ZSRUrBp1JnQ"
+    GEMINI_API_KEY = "API_KEY"
 
     # 🔹 Initialize Gemini LLM with LangChain
     llm = ChatGoogleGenerativeAI(model="gemini-pro", google_api_key=GEMINI_API_KEY)
